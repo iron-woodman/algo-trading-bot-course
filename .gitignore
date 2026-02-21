@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Specific
+.env
+
+# Lesson specific secrets and data
+Lesson_*/.env
+Lesson_*/data/
+Lesson_*/*.csv
+Lesson_*/ALL_COINS.txt
+Lesson_*/TARGET_COINS.txt
+
+# Global data and logs
+data/
+*.log
+.DS_Store
+.pytest_cache/
+.coverage
+htmlcov/
